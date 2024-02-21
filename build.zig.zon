@@ -1,0 +1,13 @@
+.{
+    .name = "text-editor",
+    .version = "0.0.1",
+    .paths = .{"", "",},
+
+    .minimum_zig_version = "0.11.0",
+    .dependencies = .{
+        .zigcurses = .{
+            .url = "https://github.com/nicholas777/zigcurses/archive/refs/tags/v0.1.1.tar.gz",
+            .hash = "12209a69e02b727a86f632d7e0fec1c6b5e5b53281e19ddc4d7f99b4d4e269fd995a",
+        },
+    },
+}
